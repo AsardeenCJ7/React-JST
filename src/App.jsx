@@ -22,7 +22,7 @@ function App() {
       <Student />
 
       <ArraySamples items={array} />
-      <Oneofsample color="green" />
+      <Oneofsample color="orangered" />
     </div>
   );
 }
