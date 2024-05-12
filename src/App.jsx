@@ -2,6 +2,7 @@ import "./App.css";
 import ArraySamples from "./assets/ComponentsLearn/ArraySamples";
 import Header from "./assets/ComponentsLearn/Header";
 import Learn from "./assets/ComponentsLearn/Learn";
+import MultiTypeComponent from "./assets/ComponentsLearn/MultiTypeComponent";
 import Oneofsample from "./assets/ComponentsLearn/Oneofsample";
 import Student from "./assets/ComponentsLearn/Student";
 
@@ -23,6 +24,10 @@ function App() {
 
       <ArraySamples items={array} />
       <Oneofsample color="orangered" />
+
+      <MultiTypeComponent value="Asardeen" />
+      <MultiTypeComponent value={25} />
+      <MultiTypeComponent value={true} />
     </div>
   );
 }
